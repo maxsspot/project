@@ -25,6 +25,16 @@
         <div id = "ideas" onclick = "fifth()"><br><p>Theme</p><br></div>
         <br>
         <div id = "ideas" onclick = "sixth()"><br><p>Review</p><br></div>
+        <br>
+        <br>
+        <form method = "POST" name = "Reviews" netlify-honeypot="bot-field" netlify>
+            <h2>Rate my IR project!</h2>
+                <input name = "bot-field" style = "display:none;" />
+                <input name = "Name" placeholder = "Name" required />
+                <input name = "Email" placeholder = "Email" type = "Email" required />
+                <input name = "Rating" placeholder = "Rating (0-5)" min = "0" max = "5" required />
+            <button>Submit</button>
+        </form>
         </div>
         <div id = "first">
             <h2>Title, page count, genre</h2>
@@ -130,6 +140,28 @@ img {
     width:30px;
     height:30px;
 }
+            
+            button {
+                width:250px;
+                height:30px;
+                border-radius:10px;
+                background-color:skyblue;
+                transition:all 0.25s;
+            }
+            
+            
+            button:hover {
+                background-color:#82EEFD;
+            }
+            
+            input {
+                width:250px;
+                height:30px
+                border-radius:10px;
+                background-color:gainsboro;
+                border:transparent;
+                transition:all 0.25s;
+            }
 
 #des {
     width:300px;
