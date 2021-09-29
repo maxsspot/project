@@ -30,9 +30,13 @@
         <form method = "POST" name = "Reviews" netlify-honeypot="bot-field" netlify>
             <h2>Rate my IR project!</h2>
                 <input name = "bot-field" style = "display:none;" />
+                <br>
                 <input name = "Name" placeholder = "Name" required />
+                <br>
                 <input name = "Email" placeholder = "Email" type = "Email" required />
+                <br>
                 <input name = "Rating" placeholder = "Rating (0-5)" min = "0" max = "5" required />
+                <br>
             <button>Submit</button>
         </form>
         </div>
@@ -144,6 +148,7 @@ img {
             button {
                 width:250px;
                 height:30px;
+                border:transparent;
                 border-radius:10px;
                 background-color:skyblue;
                 transition:all 0.25s;
@@ -156,7 +161,7 @@ img {
             
             input {
                 width:250px;
-                height:30px
+                height:30px;
                 border-radius:10px;
                 background-color:gainsboro;
                 border:transparent;
