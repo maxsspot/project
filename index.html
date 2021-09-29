@@ -30,7 +30,7 @@
         <hr>
         <br>
         <br>
-        <form method = "POST" name = "Reviews" netlify-honeypot="bot-field" data-netlify-recaptcha="true" netlify>
+        <form method = "POST" name = "Reviews" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action = "thanksforsubmitting.html" netlify>
             <h2>Rate my IR project!</h2>
                 <input name = "bot-field" style = "display:none;" />
                 <br>
@@ -39,7 +39,6 @@
                 <input name = "Email" placeholder = "Email" type = "Email" required />
                 <br>
                 <input name = "Rating" type = "number" placeholder = "Rating (0-5)" min = "0" max = "5" required />
-                <br>
                 <div data-netlify-recaptcha="true"></div>
                 <br>
             <button>Submit</button>
