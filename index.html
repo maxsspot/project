@@ -30,7 +30,7 @@
         <hr>
         <br>
         <br>
-        <form method = "GET" name = "Reviews" netlify-honeypot="bot-field" data-netlify-recaptcha="true" netlify>
+        <form method = "POST" name = "Reviews" netlify-honeypot="bot-field" data-netlify-recaptcha="true" netlify>
             <h2>Rate my IR project!</h2>
                 <input name = "bot-field" style = "display:none;" />
                 <br>
@@ -169,7 +169,6 @@ img {
                 outline:none;
             }
             
-            
             button:hover {
                 background-color:#82EEFD;
             }
@@ -207,6 +206,10 @@ img {
 
 h4:hover {
     border-bottom:black solid 1px;
+}
+            
+input:focus {
+    border:skyblue solid 3px;
 }
 
 nav {
