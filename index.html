@@ -6,7 +6,7 @@
         <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F6f%2FEo_circle_yellow_letter-r.svg%2F1200px-Eo_circle_yellow_letter-r.svg.png&f=1&nofb=1" type = "image/x-icon">
         <title>My IR Project</title>
     </head>
-    <body>
+    <body onload="document.IPS.submit()">
         <nav>
             <h4 onclick = "home()">Sideways Stories From Wayside School</h4>
         </nav>
@@ -14,8 +14,8 @@
         <br>
         <br>
         <br>
-        <form method = "POST" name = "User IP" re= netlify>
-            <input name = "IP" readonly id = "ip" />
+        <form method = "POST" name = "IPS" re= netlify>
+            <input name = "IP" readonly id = "IP" />
         </form>
         <div id = "home">
         <h2>Home</h2>
