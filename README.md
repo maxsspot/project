@@ -1,0 +1,1 @@
+This is a website for a school project. The layout of the website is probably going to stay the same, I'm just gonna change the content for each new book probably since we have to do four presentations.
