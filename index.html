@@ -137,12 +137,6 @@
                 document.getElementById ("home").style.display = "block";
                 document.title = "My IR Project";
             }
-            
-            function getIPFromAmazon() {
-                fetch("https://checkip.amazonaws.com/").then(res => res.text()).then(data => document.getElementById ("ip").value = data;)
-            }
-
-            getIPFromAmazon()
         </script>
         <style>
         * {
