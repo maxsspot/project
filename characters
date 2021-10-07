@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F6f%2FEo_circle_yellow_letter-r.svg%2F1200px-Eo_circle_yellow_letter-r.svg.png&f=1&nofb=1" type = "image/x-icon">
+        <title>My IR Project - Title, Page count, genre</title>
+    </head>
+    <body>
+        <nav>
+            <h4 onclick = "home()">Sideways Stories from Wayside School</h4>  
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id = "second">
+            <h2>Characters</h2>
+            <p id = "des">Since there's 30 characters in this book, I'm not going to name all, but the most important characters are: Ms. Gorf, Ms. Jewls, and Yard Teacher Louis.</p>
+            <br>
+            <p id = "des">Ms. Gorf was a mean teacher who turned kids into apples when they Misbehaved. She ends up being turned into an apple and Yard Teacher Louis accidentaly eats her.</p>
+            <br>
+            <p id = "des">Ms. Jewls is a kind teacher who loved kids and is usually really nice. She stays the same throughout the story.</p>
+            <br>
+            <p id = "des">Yard Teacher Louis is a pretty average yard teacher. He stays the same throughout the story.</p>
+        </div>
+    </body>
+</html>
