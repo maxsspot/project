@@ -17,7 +17,9 @@
         <div id = "home">
         <h2>Home</h2>
         <br>
-        <div id = "ideas" onclick = "first()"><br><p>Title, page count, genre</p><br></div>
+        <form action = "title-pagecount-genre">
+        <button id = "ideas" onclick = "first()"><br><p>Title, page count, genre</p><br></button>
+        </form>
         <br>
         <div id = "ideas" onclick = "second()"><br><p>Characters</p><br></div>
         <br>
@@ -49,10 +51,6 @@
         </div>
         <br>
         <br>
-        <div id = "first">
-            <h2>Title, page count, genre</h2>
-            <p id = "des">There are 121 pages in this book and the title is Sideways Stories from Wayside School. The genre of this book is fiction.</p>
-        </div>
         <div id = "second">
             <h2>Characters</h2>
             <p id = "des">Since there's 30 characters in this book, I'm not going to name all, but the most important characters are: Ms. Gorf, Ms. Jewls, and Yard Teacher Louis.</p>
@@ -234,6 +232,7 @@ h4 {
     margin-right:auto;
     cursor:pointer;
     border-radius:5px;
+    height:80px;
     transition:all 0.5s;
     background-color:whitesmoke;
 }
