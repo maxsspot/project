@@ -64,10 +64,6 @@ img {
     margin-right:auto;
 }
 
-#first, #second, #third, #fourth, #fifth, #sixth {
-    display:none;
-}
-
 h4:hover {
     border-bottom:black solid 1px;
 }
