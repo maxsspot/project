@@ -26,7 +26,7 @@ img {
             button {
                 width:250px;
                 height:35px;
-                border:transparent;
+                border:skyblue solid 2px;
                 border-radius:5px;
                 background-color:skyblue;
                 transition:all 0.25s;
@@ -54,7 +54,7 @@ img {
             }
 
 input:focus {
-       border:lightgreen solid 1px;
+       border:lightgreen solid 2px;
 }
             
             hr {
