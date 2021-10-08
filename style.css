@@ -13,6 +13,10 @@ input::-webkit-inner-spin-button {
        display:none;      
 }
 
+#homebutton {
+       background-color:transparent;border:transparent;width:285px;margin-top:-10px;
+}
+
 body {
     font-family:"Montserrat", sans-serif;
     text-align:center;
