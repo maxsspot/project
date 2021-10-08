@@ -45,13 +45,17 @@ img {
                 height:35px;
                 border-radius:5px;
                 background-color:gainsboro;
-                border:transparent;
+                border:gainsboro solid 2px;
                 transition:all 0.25s;
                 margin:2px;
                 outline:none;
                 text-indent:10px;
                 font-family:"Montserrat", sans-serif;
             }
+
+input:focus {
+       border:lightgreen solid 1px;
+}
             
             hr {
                 width:90%;
