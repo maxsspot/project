@@ -22,7 +22,7 @@
         Content-Security-Policy = '''
             default-src 'self' https:;
             script-src 'self';
-            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap;
+            style-src 'self' https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap;
             object-src 'none';
             base-uri 'none';
             frame-src 'none';
