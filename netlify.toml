@@ -5,6 +5,7 @@
         X-XSS-Protection = "1; mode=block"
         Cache-Control = "no-cache"
         X-Content-Type-Options = "nosniff"
+        keep-alive = "100"
         Connection = "keep-alive"
         Referrer-Policy = "no-referrer"
         Expect-CT = "enforce, max-age=31536000"
@@ -12,6 +13,7 @@
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
         Host = "myirproject.netlify.app"
+        Location = "myirproject.netlify.app"
         Vary = "Upgrade-Insecure-Requests"
         Strict-Transport-Security = '''
             max-age=31536000;
@@ -19,7 +21,7 @@
         '''
         Content-Security-Policy = '''
             default-src 'self' https:;
-            script-src 'self' 'unsafe-inline';
+            script-src 'self';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap;
             object-src 'none';
             base-uri 'none';
