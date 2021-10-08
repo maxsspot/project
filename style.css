@@ -38,6 +38,7 @@ img {
             
             button:hover {
                 background-color:#82EEFD;
+                border:skyblue solid 2px;
             }
             
             input {
@@ -99,9 +100,11 @@ h4 {
     border-radius:5px;
     height:80px;
     transition:all 0.5s;
+    border:whitesmoke solid 1px;
     background-color:whitesmoke;
 }
 
 #ideas:hover {
     background-color:ghostwhite;
+    border:ghostwhite solid 1px;
 }
