@@ -11,7 +11,7 @@
     <body>
         <nav>
             <form action = "index">
-            <h4 onclick = "home()"><button style = "background-color:transparent;border:transparent;width:285px;margin-top:-10px;">Sideways Stories from Wayside School</button></h4>  
+            <h4 onclick = "home()"><button id = "homebutton">Sideways Stories from Wayside School</button></h4>  
             </form>
         </nav>
         <br>
@@ -51,7 +51,7 @@
         <br>
         <form method = "POST" name = "Reviews" netlify-honeypot="bot-field" netlify action = "review-submitted.html">
             <h2>Rate my IR project!</h2>
-                <input name = "bot-field" style = "display:none;" />
+                <input name = "bot-field" id = "bot-field" />
                 <br>
                 <input name = "Name" placeholder = "Name" required />
                 <br>
